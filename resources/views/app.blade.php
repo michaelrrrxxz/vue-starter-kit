@@ -16,14 +16,13 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ asset('dist/css/adminlte.min.css') }}">
     <link rel="stylesheet" href="{{ asset('plugins/toastr/toastr.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/landingpage.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('css/landingpage.css') }}"> --}}
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
 
     @vite(['resources/js/app.js'])
     @inertiaHead
 </head>
 <body class="hold-transition sidebar-mini">
-
     @inertia
 
     <!-- Scripts -->
